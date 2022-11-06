@@ -17,8 +17,8 @@ public class Passing {
         i++;
     }
 
-    static void changeIt(Point p){ //doposowanie po typie dlatego mogą się metody tak samo nazywać
-        p = new Point(4,4);
+    static void changeIt(Point p){ //doposowanie po typie dlatego mogą się metody tak samo nazywać. W zmiennych referencyjnych inaczej
+        //p = new Point(4,4);
         p.x++;
         p.y++;
     }
